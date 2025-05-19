@@ -1,16 +1,16 @@
 import { Logo } from "@/once-ui/components";
 
 const person = {
-  firstName: "Selene",
-  lastName: "Yu",
+  firstName: "Elhassan",
+  lastName: "DAHMOUCHI",
   get name() {
     return `${this.firstName} ${this.lastName}`;
   },
-  role: "Design Engineer",
+  role: "Software Engineer",
   avatar: "/images/avatar.jpg",
-  email: "example@gmail.com",
-  location: "Asia/Jakarta", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
-  languages: ["English", "Bahasa"], // optional: Leave the array empty if you don't want to display languages
+  email: "hassandahmouchi0@gmail.com",
+  location: "Africa/Casablanca", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
+  languages: ["English", "Arabic","Frensh"], // optional: Leave the array empty if you don't want to display languages
 };
 
 const newsletter = {
@@ -30,12 +30,12 @@ const social = [
   {
     name: "GitHub",
     icon: "github",
-    link: "https://github.com/once-ui-system/nextjs-starter",
+    link: "https://github.com/Dahmouchi",
   },
   {
     name: "LinkedIn",
     icon: "linkedin",
-    link: "https://www.linkedin.com/company/once-ui/",
+    link: "https://www.linkedin.com/in/hassan-dahmouchi-a9539333a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
   },
   {
     name: "X",
@@ -58,13 +58,13 @@ const home = {
   headline: <>Building bridges between design and code</>,
   featured: {
     display: true,
-    title: <>Recent project: <strong className="ml-4">Once UI</strong></>,
-    href: "/work/building-once-ui-a-customizable-design-system",
+    title: <>Recent project: <strong className="ml-4">Alert & Analysis System</strong></>,
+    href: "#",
   },
   subline: (
     <>
-      I'm Selene, a design engineer at <Logo icon={false} style={{ display: "inline-flex", top: "0.25em", marginLeft: "-0.25em" }}/>, where I craft intuitive
-      <br /> user experiences. After hours, I build my own projects.
+      I'm Elhassan, a passionate developer focused on building smart web solutions.
+      <br /> Currently working on an alert reporting and analysis project to help report and study incidents.
     </>
   ),
 };
@@ -90,32 +90,30 @@ const about = {
     title: "Introduction",
     description: (
       <>
-        Selene is a Jakarta-based design engineer with a passion for transforming complex challenges
-        into simple, elegant design solutions. Her work spans digital interfaces, interactive
-        experiences, and the convergence of design and technology.
+        Elhassan is a Morocco-based web developer passionate about creating smart solutions
+        for real-world problems. His work focuses on building alert reporting and analysis systems,
+        combining technology and innovation to improve incident management and response.
       </>
     ),
   },
+  
   work: {
     display: true, // set to false to hide this section
     title: "Work Experience",
     experiences: [
       {
-        company: "FLY",
-        timeframe: "2022 - Present",
-        role: "Senior Design Engineer",
+        company: "BuildalittleBiz",
+        timeframe: "2024 - Present",
+        role: "Full-Stack Developer (Internship and Freelance)",
         achievements: [
           <>
-            Redesigned the UI/UX for the FLY platform, resulting in a 20% increase in user
-            engagement and 30% faster load times.
+            Worked on an <strong>Alert Reporting and Analysis System</strong> to help organizations monitor, report, and analyze incidents effectively.
           </>,
           <>
-            Spearheaded the integration of AI tools into design workflows, enabling designers to
-            iterate 50% faster.
+            Contributed to the development of a <strong>School Management System</strong> for handling students, classes, content, absences, grades, and payment management.
           </>,
         ],
         images: [
-          // optional: leave the array empty if you don't want to display images
           {
             src: "/images/projects/project-01/cover-01.jpg",
             alt: "Once UI Project",
@@ -125,37 +123,67 @@ const about = {
         ],
       },
       {
-        company: "Creativ3",
-        timeframe: "2018 - 2022",
-        role: "Lead Designer",
+        company: "Freelance Projects",
+        timeframe: "2022 - Present",
+        role: "Freelance Web & Mobile Developer",
         achievements: [
           <>
-            Developed a design system that unified the brand across multiple platforms, improving
-            design consistency by 40%.
+            Built <strong>GFY International</strong> — an e-commerce platform for car and automobile accessories.
           </>,
           <>
-            Led a cross-functional team to launch a new product line, contributing to a 15% increase
-            in overall company revenue.
+            Developed multiple responsive landing pages and websites using <strong>Next.js</strong>, <strong>TailwindCSS</strong>, and modern UI/UX practices.
+          </>,
+        ],
+        images: [],
+      },
+      {
+        company: "Bachelor Internship Project",
+        timeframe: "2022",
+        role: "Mobile Developer",
+        achievements: [
+          <>
+            Developed a <strong>React Native mobile game</strong> for primary school students to enhance learning and engagement.
+          </>,
+        ],
+        images: [],
+      },
+      {
+        company: "Final Year Project - CoursaMaroc",
+        timeframe: "2021",
+        role: "Mobile App Developer",
+        achievements: [
+          <>
+            Created <strong>CoursaMaroc</strong>, a mobile application for taxi management, focusing on booking, tracking, and trip management.
           </>,
         ],
         images: [],
       },
     ],
+    
   },
   studies: {
     display: true, // set to false to hide this section
     title: "Studies",
     institutions: [
       {
-        name: "University of Jakarta",
-        description: <>Studied software engineering.</>,
+        name: "University Mohamed V, Rabat",
+        description: <>Master's degree in Software Development and Business Intelligence Engineering (Ingénierie de Développement Logiciel et Décisionnel).</>,
       },
       {
-        name: "Build the Future",
-        description: <>Studied online marketing and personal branding.</>,
+        name: "Higher School of Technology, Salé",
+        description: <>Bachelor's degree in Mobile Application Engineering (with honors).</>,
+      },
+      {
+        name: "Higher School of Technology, Beni Mellal",
+        description: <>DUT in Computer Engineering (with honors).</>,
+      },
+      {
+        name: "High School Diploma",
+        description: <>Baccalaureate in Physical Sciences and Chemistry.</>,
       },
     ],
   },
+  
   technical: {
     display: true, // set to false to hide this section
     title: "Technical skills",
