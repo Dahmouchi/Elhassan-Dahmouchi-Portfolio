@@ -35,7 +35,7 @@ const social = [
   {
     name: "LinkedIn",
     icon: "linkedin",
-    link: "https://www.linkedin.com/in/hassan-dahmouchi-a9539333a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+    link: "https://www.linkedin.com/in/elhassan-dahmouchi-a9539333a/",
   },
   {
     name: "X",
@@ -51,7 +51,7 @@ const social = [
 
 const home = {
   path: "/",
-  image: "/images/og/home.jpg",
+  image: "/images/og/home.png",
   label: "Home",
   title: `${person.name}'s Portfolio`,
   description: `Portfolio website showcasing my work as a ${person.role}`,
@@ -115,7 +115,7 @@ const about = {
         ],
         images: [
           {
-            src: "/images/projects/project-01/cover-01.jpg",
+            src: "/images/og/build.webp",
             alt: "Once UI Project",
             width: 16,
             height: 9,
@@ -194,13 +194,13 @@ const about = {
         // optional: leave the array empty if you don't want to display images
         images: [
           {
-            src: "/images/projects/project-01/cover-02.jpg",
+            src: "/images/og/figma1.png",
             alt: "Project image",
             width: 16,
             height: 9,
           },
           {
-            src: "/images/projects/project-01/cover-03.jpg",
+            src: "/images/og/figma2.png",
             alt: "Project image",
             width: 16,
             height: 9,
@@ -209,11 +209,11 @@ const about = {
       },
       {
         title: "Next.js",
-        description: <>Building next gen apps with Next.js + Once UI + Supabase.</>,
+        description: <>Building next gen apps with Next.js + Prisma + PostgreSql.</>,
         // optional: leave the array empty if you don't want to display images
         images: [
           {
-            src: "/images/projects/project-01/cover-04.jpg",
+            src: "/images/projects/project-02/cover-01.png",
             alt: "Project image",
             width: 16,
             height: 9,
